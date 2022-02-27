@@ -459,6 +459,7 @@ a:focus {
     position: relative;
     font-size: 45px;
     font-weight: 700;
+    color: #111111;
 }
 
 @media (max-width: 767.98px) {
@@ -861,8 +862,8 @@ a:focus {
 
 .portfolio .portfolio-img img {
     position: relative;
-    width: 100%; 
-    height: 100%; 
+    width: 325px; 
+    height: 225px; 
     object-fit: cover;
     transform: scale(1.1);
     transition: .5s;
@@ -1308,6 +1309,22 @@ a:focus {
     padding: 45px 0 15px 0;
 }
 
+.blog .container {
+    position: relative;
+    max-width: 750px;
+    text-align: center;
+}
+
+.blog .container .row h2 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.blog .section-header {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .blog .blog-item {
     position: relative;
     margin-bottom: 30px;
@@ -1505,3 +1522,94 @@ a:focus {
         padding: 0 5px;
     }
 }
+
+  /*******************************/
+/********* Article CSS **********/
+/*******************************/
+.article .container {
+    position: relative;
+    max-width: 750px;
+    text-align: center;
+}
+
+.article .container .row h2 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.article .article-header {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.article .article-text p {
+    position: ab;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.article .article-text h2 {
+    position: ab;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.article .article-text .btn {
+    position: ab;
+    font-size: 18px;
+    color: #2337ef;
+    background: #2337ef;
+    box-shadow: inset 0 0 0 50px white;
+}
+
+.article .article-text .btn:hover {
+    color: white;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 white;
+    border-color: #2337ef;
+}
+
+.text-center .bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+  }
+  @media (max-width: 1024px) {
+    .text-center .bg-image {
+      background-attachment: scroll;
+    }
+  }
+
+  .text-center .overlay-mf {
+    background-color: #2337ef;
+  }
+  
+  .overlay-mf {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+  }
+
+  .paralax-mf {
+    position: relative;
+    padding: 8rem 0;
+  }
+
+  
+  .bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+  }
+  @media (max-width: 1024px) {
+    .bg-image {
+      background-attachment: scroll;
+    }
+  }
