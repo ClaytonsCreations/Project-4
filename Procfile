@@ -1,0 +1,1 @@
+web: gunicorn indeed.app:app
