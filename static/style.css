@@ -1048,6 +1048,11 @@ a:focus {
     padding: 0 0 20px 0;
 }
 
+.price .price-description p {
+    margin: 0;
+    padding: 0;
+}
+
 .price .price-description ul {
     margin: 0;
     padding: 0;
