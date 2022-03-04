@@ -248,7 +248,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(#8860d0, #5ab9ea), url(img/building-construction.png);
+    background: linear-gradient(#8860d0, #5ab9ea);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -761,7 +761,7 @@ a:focus {
 .service .service-icon i {
     position: relative;
     font-size: 60px;
-    color: #5ab9ea;
+    color: #8860d0;
     transition: .3s;
 }
 
@@ -952,7 +952,7 @@ a:focus {
 
 .banner .banner-text p {
     font-size: 18px;
-    color: #ffffff;
+    color: #414141;
 }
 
 .banner .banner-text .btn {
@@ -1315,9 +1315,9 @@ a:focus {
     text-align: center;
 }
 
-.blog .container .row h2 {
+.blog .container .row h1 {
     color: black;
-    font-size: 50px;
+    font-size: 25px;
     text-align: center;
 }
 .blog .section-header {
@@ -1551,19 +1551,19 @@ a:focus {
 
 
 .article .article-text p {
-    position: ab;
+    position: center;
     font-size: 18px;
     color: #ffffff;
 }
 
 .article .article-text h2 {
-    position: ab;
+    position: center;
     font-size: 18px;
     color: #ffffff;
 }
 
 .article .article-text .btn {
-    position: ab;
+    position: center;
     font-size: 18px;
     color: #5ab9ea;
     background: #5ab9ea;
