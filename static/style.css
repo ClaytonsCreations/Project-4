@@ -1586,7 +1586,7 @@ a:focus {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
   }
   @media (max-width: 1024px) {
     .text-center .bg-image {
@@ -1618,7 +1618,7 @@ a:focus {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
   }
   @media (max-width: 1024px) {
     .bg-image {
