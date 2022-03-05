@@ -1,0 +1,57 @@
+We will talk as if we are really the company presenting to Superstore. 
+
+Index: (Mark)
+- Update things to get rid of "project" stuff
+- add summary of request
++ Need to get quotes from each team member.
+
+Data: (Allison)
+- Get rid of the project data and write it as if the Superstore company gave us the data.
+- Move data limitations to this page
+- Add links to the Jupyter Notebook for class review
+
+Process: 
+- Update Step 1 to remove tableau
+- make sure it seems like the real process
+
+Machine Learning: (Cameron)
+- Add in the cluster and variables used
+- link to "ML" jupyter notebook for class
+
+Analysis:
++ need the key points for analysis
++ create steps for the customer to follow
+
+Tableau: (Brett)
+- make sure I have the most updated link from Brett
+
+The Team: (Mark)
+- double check, should be good to go. 
+
++ Next Recommendations:
++ Create a list of steps for the clients to take in order to improve. 
+
+
+Mark
+Intro the team, layout of the website etc. 
+Process overview
+
+Allison
+Data clean-up, what we used, using get_dummies etc
+
+Cameron
+Machine Learning, how the clustering worked, the struggles we had
+
+Brett
+Tableau details, what things are possible to do for analysis
+
+Brett
+Talk about the major analysis points, top customers, who to drop etc. how to increase profits etc. 
+
+Allison
+Details on the returns analysis
+
+
+
+
+
