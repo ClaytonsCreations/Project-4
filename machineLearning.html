@@ -73,7 +73,7 @@
                 <img src="img/Superstore_MLelbowProduct.png" class="card-img-top" alt="graph">
                 <div class="card-body">
                   <h5 class="card-title">Product Elbow Curve</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Once we had a clean dataset focused on Product, we ran the KMEANS to determine the number of clusters to plot with. The number of clusters are determined by the elbow curve where inertia begins to flatten. </p>
                 </div>
               </div>
             </div>
@@ -82,7 +82,7 @@
                 <img src="img/SuperstoreScatteraggProductNames.png" class="card-img-top" alt="graph">
                 <div class="card-body">
                   <h5 class="card-title">Product KMEANS Cluster</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">We used the number of clusters from the elbow curve to plug into our model. We fit the model, print the predictions and add a class column to the DataFrame. Then used MatPlotLib to produce a cluster plot.</p>
                 </div>
               </div>
             </div>
@@ -91,7 +91,7 @@
                 <img src="img/Superstore_MLelbow.png" class="card-img-top" alt="graph">
                 <div class="card-body">
                   <h5 class="card-title">Customer Elbow Curve</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text">Once we had a clean dataset focused on Customer, we ran the KMEANS to determine the number of clusters to plot with. The number of clusters are determined by the elbow curve where inertia begins to flatten.</p>
                 </div>
               </div>
             </div>
@@ -100,7 +100,7 @@
                 <img src="img/SuperstoreScatteragg.png" class="card-img-top" alt="graph">
                 <div class="card-body">
                   <h5 class="card-title">Customer KMEANS Cluster</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">We used the number of clusters from the elbow curve to plug into our model. We fit the model, print the predictions and add a class column to the DataFrame. Then used MatPlotLib to produce a cluster plot.</p>
                 </div>
               </div>
             </div>
@@ -109,16 +109,16 @@
                   <img src="img/SuperstoreScatterDiscount.png" class="card-img-top" alt="graph">
                   <div class="card-body">
                     <h5 class="card-title">Profit/Discount KMEANS Cluster</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">We tried many different variations with the data and x/y axis of the plots. This one we used profit and discount from our product focused dataset.</p>
                   </div>
                 </div>
               </div>
               <div class="col mb-4">
                 <div class="card">
-                  <img src="" class="card-img-top" alt="graph">
+                  <img src="img/SuperstoreScatterML2.png" class="card-img-top" alt="graph">
                   <div class="card-body">
-                    <h5 class="card-title">Placeholder</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    <h5 class="card-title">Customer & Product KMEANS Cluster</h5>
+                    <p class="card-text">Using a dataset that had both customer and product data, we used sales and profits as the x/y axis.</p>
                   </div>
                 </div>
               </div>
@@ -129,14 +129,14 @@
         <div class="banner wow zoomIn" data-wow-delay="0.1s">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Awesome Discount</p>
-                    <h2>Get <span>30%</span> Discount</h2>
+                    <p>KMEANS</p>
+                    <h2>HOW <span>WE</span> DID IT</h2>
                 </div>
                 <div class="container banner-text">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. 
+                        Once we had the data cleaned and separated by customer and products we ran the KMEANS to determine the number of clusters to use in our model. Using the elbow curves we set the clusters to 3 for each model. Using MatPlotLib we are able to plot the results and then we exported the data to use in Tableau for further analysis and visualizations.
                     </p>
-                    <a class="btn">Order Now</a>
+                    <a class="btn" href="https://github.com/ClaytonsCreations/Project-4/blob/main/Machine_Learning.ipynb">View Jupyter Notebook</a>
                 </div>
             </div>
         </div>
