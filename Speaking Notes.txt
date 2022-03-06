@@ -3,7 +3,7 @@ We will talk as if we are really the company presenting to Superstore.
 Index: (Mark)
 - Update things to get rid of "project" stuff
 - add summary of request
-+ Need to get quotes from each team member.
+- Need to get quotes from each team member.
 
 Data: (Allison)
 - Get rid of the project data and write it as if the Superstore company gave us the data.
